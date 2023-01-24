@@ -1,0 +1,101 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background-color:brown;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+
+}
+
+.logo-img{
+
+}
+
+.logo-text{
+    
+}
+
+.main-nav{
+    list-style-type: none;
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: #333333;
+    font-variant: small-caps;
+}
+
+.register-btn{
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%), linear-gradient(102.3deg, #0BB1E3 -4.62%, #0F2976 178.22%), #0E70AF;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text-block{
+
+}
+
+.hero-title{
+
+}
+
+.hero-description{
+
+}
+
+.hero-btn{
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+    box-shadow: 0px 20px 40px rgba(128, 143, 150, 0.19);
+    border-radius: 2px;
+    width: 350px;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.hero-btn-txt{
+    text-transform: uppercase;
+
+}
+
+.hero-btn-img{
+    
+}
+
+.hero-img{
+
+}
+
